@@ -14,32 +14,18 @@ def tail(input_list):
 print(tail(['Jan', 'Feb', 'Mar'])) #['Feb', 'Mar']
 
 
-
 def last(input_list):
-    """Return the last item of the input list.
-
-    For example:
-
-    >>> last(['Jan', 'Feb', 'Mar'])
-    'Mar'
-
-    """
-
-    return []
+    """Return the last item of the input list."""
+        return months[2]
+print(last(['Jan', 'Feb', 'Mar'])) #'Mar'
 
 
 def top(input_list):
-    """Return all elements of the input list except the last.
+    """Return all elements of the input list except the last."""
 
-    For example:
-
-    >>> top(['Jan', 'Feb', 'Mar'])
-    ['Jan', 'Feb']
-
-    """
-
-    return []
-
+    return months[:2]
+print(top(['Jan', 'Feb', 'Mar'])) # ['Jan', 'Feb']
+   
 
 def first_three(input_list):
     """Return the first three elements of the input list.
