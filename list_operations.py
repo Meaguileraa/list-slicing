@@ -2,28 +2,17 @@
 
 
 def head(input_list):
-    """Return the first item of the input list.
-
-    For example:
-
-      >>> head(['Jan', 'Feb', 'Mar'])
-      'Jan'
-    """
-
-    return None
+    """Return the first item of the input list."""
+    return months[0]
+print(head(['Jan', 'Feb', 'Mar'])) # 'Jan'
 
 
 def tail(input_list):
-    """Return a new list of all items, excluding the first item.
+    """Return a new list of all items, excluding the first item."""
 
-    For example:
+    return months[1:]
+print(tail(['Jan', 'Feb', 'Mar'])) #['Feb', 'Mar']
 
-    >>> tail(['Jan', 'Feb', 'Mar'])
-    ['Feb', 'Mar']
-
-    """
-
-    return []
 
 
 def last(input_list):
