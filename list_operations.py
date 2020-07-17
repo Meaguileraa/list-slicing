@@ -25,45 +25,26 @@ def top(input_list):
 
     return months[:2]
 print(top(['Jan', 'Feb', 'Mar'])) # ['Jan', 'Feb']
-   
 
-def first_three(input_list):
-    """Return the first three elements of the input list.
+def first_three(months):
+    """Return the first three elements of the input list."""
 
-    For example:
-
-    >>> first_three(['Jan', 'Feb', 'Mar', 'Apr', 'May'])
-    ['Jan', 'Feb', 'Mar']
-
-    """
-
-    return []
+    return months[:3]
+print(first_three(['Jan', 'Feb', 'Mar', 'Apr', 'May'])) #  ['Jan', 'Feb', 'Mar']
 
 
-def last_five(input_list):
-    """Return the last five elements of the input list.
+def last_five(numbers):
+    """Return the last five elements of the input list."""
 
-    For example:
-
-    >>> last_five([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])
-    [15, 18, 21, 24, 27]
-
-    """
-
-    return []
+    return numbers[5:]
+print(last_five([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])) # [15, 18, 21, 24, 27]
 
 
-def middle(input_list):
-    """Return all elements of input_list except the first two and the last two.
+def middle(numbers):
+    """Return all elements of input_list except the first two and the last two."""
 
-    For example:
-
-    >>> middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])
-    [6, 9, 12, 15, 18, 21]
-
-    """
-
-    return []
+    return numbers[2:8]
+print(middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])) #[6, 9, 12, 15, 18, 21]
 
 
 def inner_four(input_list):
